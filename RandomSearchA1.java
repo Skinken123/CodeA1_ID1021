@@ -8,8 +8,6 @@ public class RandomSearchA1 {
         int formatting = 1;
         String f = "";
 
-        search(1000, 10000); // kör metoden search för att förhindra att den första mätningen blir missvisande
-
         for(int n : sizes) {
             long min = Long.MAX_VALUE;
             long max = 0;
