@@ -1,0 +1,9 @@
+Array size: 100   min: 0.21 ns max: 7.94 ns avg: 0.34687 ns
+Array size: 200   min: 0.21 ns max: 0.52 ns avg: 0.21678 ns
+Array size: 400   min: 0.21 ns max: 1.53 ns avg: 0.22344 ns
+Array size: 800   min: 0.21 ns max: 3.34 ns avg: 0.21887 ns
+Array size: 1600  min: 0.2 ns max: 3.77 ns avg: 0.23406 ns
+Array size: 3200  min: 0.21 ns max: 0.8 ns avg: 0.23098 ns
+Array size: 6400  min: 0.21 ns max: 1.14 ns avg: 0.2308 ns
+Array size: 12800 min: 0.22 ns max: 1.02 ns avg: 0.24747999999999998 ns
+Array size: 25600 min: 0.25 ns max: 1.57 ns avg: 0.28939 ns

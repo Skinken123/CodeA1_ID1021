@@ -3,7 +3,7 @@ import java.util.Random;
 public class RandomSearchA1 {
     public static void main(String[] args) {
         int[] sizes = {100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600}; //array som ska accessas
-        int loop = 100; // så många gånger som vi ska leta efter en radom key i arrayen "array"
+        int loop = 1000; // så många gånger som vi ska leta efter en radom key i arrayen "array"
         int k = 1000; // så många gånger benchmark ska köras
         int formatting = 1;
         String f = "";
