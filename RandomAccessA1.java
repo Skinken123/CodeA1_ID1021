@@ -7,7 +7,7 @@ public class RandomAccessA1 {
     public static void main(String[] args) {
         int[] sizes = {100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600}; //array som ska accessas
         int loop = 10000; // så många gånger som array ska accessas vid ett random index 1 till n
-        int k = 10000; // så många gånger benchmark ska köras
+        int k = 1000; // så många gånger benchmark ska köras
         int formatting = 1;
         String f = "";
 
@@ -33,11 +33,6 @@ public class RandomAccessA1 {
             formatting++;
             System.out.println("Array size: " + n + f + " min: " + ((double) min)/loop + " ns" + " max: " + ((double) max)/loop + " ns" + " avg: " + ((double) total)/loop/k + " ns");
             }
-            //+ " avg: " + ((double) total)/loop/k + " ns" 
-            
-        //System.out.println(" avg: " + ((double) total)/loop/k + " ns");
-        //System.out.println(" min: " + ((double) min)/loop + " ns");
-        //System.out.println(" max: " + ((double) max)/loop + " ns");
     }
 
     //Stage 4
